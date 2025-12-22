@@ -30,6 +30,11 @@ int main() {
     mp[2]=200;
     mp[3]=300;
 
+    mp.insert(make_pair(4,400));
+
+    pair<int,int>pr={5,500};
+    mp.insert(pr);
+
     map<int,int>::iterator it=mp.begin();
 
     while(it!=mp.end()){
